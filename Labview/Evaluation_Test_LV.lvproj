@@ -11,10 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CameraLine" Type="Folder">
+		<Item Name="Camera" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="ICamera.lvlib" Type="Library" URL="../src/CameraLine/ICamera/ICamera.lvlib"/>
-			<Item Name="Camera.lvlib" Type="Library" URL="../src/CameraLine/Camera/Camera.lvlib"/>
+			<Item Name="ICamera.lvlib" Type="Library" URL="../src/Camera/ICamera/ICamera.lvlib"/>
+			<Item Name="CameraI2COUSB.lvlib" Type="Library" URL="../src/Camera/CameraI2COUSB/CameraI2COUSB.lvlib"/>
 		</Item>
 		<Item Name="CameraTestingApp" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -25,8 +25,9 @@
 		</Item>
 		<Item Name="DataRecorder" Type="Folder"/>
 		<Item Name="I2CDriver" Type="Folder">
-			<Item Name="I2COUSB.lvlib" Type="Library" URL="../src/I2CDriver/I2COUSB/I2COUSB.lvlib"/>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="II2COUSB.lvlib" Type="Library" URL="../src/I2CDriver/II2COUSB/II2COUSB.lvlib"/>
+			<Item Name="I2COUSB.lvlib" Type="Library" URL="../src/I2CDriver/I2COUSB/I2COUSB.lvlib"/>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
