@@ -13,7 +13,11 @@
 		<Item Name="ConnectCamera Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/ConnectCamera Msg/ConnectCamera Msg.lvclass"/>
 		<Item Name="DisconnectCamera Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/DisconnectCamera Msg/DisconnectCamera Msg.lvclass"/>
 		<Item Name="GetFrameRate Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/GetFrameRate Msg/GetFrameRate Msg.lvclass"/>
+		<Item Name="GetImageType Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/GetImageType Msg/GetImageType Msg.lvclass"/>
+		<Item Name="GetResolution Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/GetResolution Msg/GetResolution Msg.lvclass"/>
 		<Item Name="SetFrameRate Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/SetFrameRate Msg/SetFrameRate Msg.lvclass"/>
+		<Item Name="SetImageType Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/SetImageType Msg/SetImageType Msg.lvclass"/>
+		<Item Name="SetResolution Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/SetResolution Msg/SetResolution Msg.lvclass"/>
 		<Item Name="StartStreaming Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/StartStreaming Msg/StartStreaming Msg.lvclass"/>
 		<Item Name="StopStreaming Msg.lvclass" Type="LVClass" URL="../ICameraTesting Messages/StopStreaming Msg/StopStreaming Msg.lvclass"/>
 	</Item>
