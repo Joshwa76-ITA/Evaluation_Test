@@ -23,6 +23,7 @@
 			<Item Name="ICameraTestingUI.lvlib" Type="Library" URL="../src/CameraTestingApp/ICameraTestingUI/ICameraTestingUI.lvlib"/>
 			<Item Name="CameraTesting.lvlib" Type="Library" URL="../src/CameraTestingApp/CameraTesting/CameraTesting.lvlib"/>
 			<Item Name="CameraTestingUI.lvlib" Type="Library" URL="../src/CameraTestingApp/CameraTestingUI/CameraTestingUI.lvlib"/>
+			<Item Name="CameraTestingLauncher.lvlib" Type="Library" URL="../src/CameraTestingApp/CameraTestingLauncher/CameraTestingLauncher.lvlib"/>
 		</Item>
 		<Item Name="DataRecorder" Type="Folder"/>
 		<Item Name="I2CDriver" Type="Folder">
@@ -58,6 +59,7 @@
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Synchronize Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Synchronize Data Flow.vim"/>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
