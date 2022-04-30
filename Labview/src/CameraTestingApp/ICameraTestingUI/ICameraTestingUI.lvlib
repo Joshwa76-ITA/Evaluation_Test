@@ -10,7 +10,12 @@
 		<Item Name="UpdateLinkCameraStatus Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/UpdateLinkCameraStatus Msg/UpdateLinkCameraStatus Msg.lvclass"/>
 		<Item Name="UpdateStatusLog Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/UpdateStatusLog Msg/UpdateStatusLog Msg.lvclass"/>
 		<Item Name="ShowFP Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/ShowFP Msg/ShowFP Msg.lvclass"/>
-		<Item Name="UpdtCamTestCntrlEvnts Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/UpdtCamTestCntrlEvnts Msg/UpdtCamTestCntrlEvnts Msg.lvclass"/>
+		<Item Name="CamTestGetEvntsResponse Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/CamTestGetEvntsResponse Msg/CamTestGetEvntsResponse Msg.lvclass"/>
+		<Item Name="UpdateCamTestEvents Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/UpdateCamTestEvents Msg/UpdateCamTestEvents Msg.lvclass"/>
+		<Item Name="ConnectCameraRslt Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/ConnectCameraRslt Msg/ConnectCameraRslt Msg.lvclass"/>
+		<Item Name="DisconnectCameraRslt Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/DisconnectCameraRslt Msg/DisconnectCameraRslt Msg.lvclass"/>
+		<Item Name="StartPlayRslt Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/StartPlayRslt Msg/StartPlayRslt Msg.lvclass"/>
+		<Item Name="StopPlayRslt Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/StopPlayRslt Msg/StopPlayRslt Msg.lvclass"/>
 	</Item>
 	<Item Name="ICameraTestingUI.lvclass" Type="LVClass" URL="../ICameraTestingUI/ICameraTestingUI.lvclass"/>
 </Library>

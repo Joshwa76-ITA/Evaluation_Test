@@ -4,5 +4,10 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
+	<Item Name="Internal Messages for Actor" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
+		<Item Name="Init Msg.lvclass" Type="LVClass" URL="../CameraTestingUI Messages/Init Msg/Init Msg.lvclass"/>
+		<Item Name="onVideoOptInfoUpd Msg.lvclass" Type="LVClass" URL="../CameraTestingUI Messages/onVideoOptInfoUpd Msg/onVideoOptInfoUpd Msg.lvclass"/>
+	</Item>
 	<Item Name="CameraTestingUI.lvclass" Type="LVClass" URL="../CameraTestingUI/CameraTestingUI.lvclass"/>
 </Library>
