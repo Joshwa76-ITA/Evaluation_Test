@@ -16,13 +16,21 @@
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="ICamera.lvlib" Type="Library" URL="../src/Camera/ICamera/ICamera.lvlib"/>
 			<Item Name="CameraI2COUSB.lvlib" Type="Library" URL="../src/Camera/CameraI2COUSB/CameraI2COUSB.lvlib"/>
+			<Item Name="CameraUSB.lvlib" Type="Library" URL="../src/Camera/CameraUSB/CameraUSB.lvlib"/>
+			<Item Name="CameraETH.lvlib" Type="Library" URL="../src/Camera/CameraETH/CameraETH.lvlib"/>
+			<Item Name="CameraIMAQ.lvlib" Type="Library" URL="../src/Camera/CameraIMAQ/CameraIMAQ.lvlib"/>
 		</Item>
 		<Item Name="Camera Drivers" Type="Folder">
 			<Item Name="I2CDriver" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
-				<Item Name="II2COUSB.lvlib" Type="Library" URL="../src/I2CDriver/II2COUSB/II2COUSB.lvlib"/>
-				<Item Name="I2COUSB.lvlib" Type="Library" URL="../src/I2CDriver/I2COUSB/I2COUSB.lvlib"/>
+				<Item Name="II2COUSB.lvlib" Type="Library" URL="../src/CameraDriver/II2COUSB/II2COUSB.lvlib"/>
+				<Item Name="I2COUSB.lvlib" Type="Library" URL="../src/CameraDriver/I2COUSB/I2COUSB.lvlib"/>
 			</Item>
+			<Item Name="USBDriver" Type="Folder">
+				<Item Name="IUSBDriver.lvlib" Type="Library" URL="../src/CameraDriver/IUSBDriver/IUSBDriver.lvlib"/>
+			</Item>
+			<Item Name="EthDriver" Type="Folder"/>
+			<Item Name="IMAQDriver" Type="Folder"/>
 		</Item>
 		<Item Name="CameraTestingApp" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -34,18 +42,18 @@
 		</Item>
 		<Item Name="DataRecorder" Type="Folder"/>
 		<Item Name="MediaViewer" Type="Folder"/>
+		<Item Name="ErrorHandler" Type="Folder"/>
+		<Item Name="Logger" Type="Folder"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
-				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Casting Utility For Actors.vim" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Actor/Casting Utility For Actors.vim"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
@@ -54,9 +62,6 @@
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
-				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
-				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
-				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Time-Delay Override Options.ctl" Type="VI" URL="/&lt;vilib&gt;/ActorFramework/Time-Delayed Send Message/Time-Delay Override Options.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>

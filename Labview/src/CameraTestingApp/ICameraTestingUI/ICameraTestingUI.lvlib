@@ -6,9 +6,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Item Name="Messages for Actor" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="CloseFP Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/CloseFP Msg/CloseFP Msg.lvclass"/>
 		<Item Name="UpdateLinkCameraStatus Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/UpdateLinkCameraStatus Msg/UpdateLinkCameraStatus Msg.lvclass"/>
-		<Item Name="UpdateStatusLog Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/UpdateStatusLog Msg/UpdateStatusLog Msg.lvclass"/>
 		<Item Name="ShowFP Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/ShowFP Msg/ShowFP Msg.lvclass"/>
 		<Item Name="CamTestGetEvntsResponse Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/CamTestGetEvntsResponse Msg/CamTestGetEvntsResponse Msg.lvclass"/>
 		<Item Name="UpdateCamTestEvents Msg.lvclass" Type="LVClass" URL="../ICameraTestingUI Messages/UpdateCamTestEvents Msg/UpdateCamTestEvents Msg.lvclass"/>
