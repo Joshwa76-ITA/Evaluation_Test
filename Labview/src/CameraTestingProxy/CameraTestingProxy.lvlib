@@ -13,7 +13,6 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="GetEvents Msg.lvclass" Type="LVClass" URL="../CameraTestingENI Messages/GetEvents Msg/GetEvents Msg.lvclass"/>
 		<Item Name="Init Msg.lvclass" Type="LVClass" URL="../CameraTestingENI Messages/Init Msg/Init Msg.lvclass"/>
-		<Item Name="onVideoOptInfoUpd Msg.lvclass" Type="LVClass" URL="../CameraTestingENI Messages/onVideoOptInfoUpd Msg/onVideoOptInfoUpd Msg.lvclass"/>
 	</Item>
 	<Item Name="CameraTestingENI.lvclass" Type="LVClass" URL="../CameraTestingENI/CameraTestingENI.lvclass">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
