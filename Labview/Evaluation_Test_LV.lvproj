@@ -41,6 +41,11 @@
 				<Item Name="CameraTestingUI.lvlib" Type="Library" URL="../src/CameraTestingApp/CameraTestingUI/CameraTestingUI.lvlib"/>
 				<Item Name="CameraTestingLauncher.lvlib" Type="Library" URL="../src/CameraTestingApp/CameraTestingLauncher/CameraTestingLauncher.lvlib"/>
 			</Item>
+			<Item Name="CameraTestingProxy" Type="Folder">
+				<Item Name="CameraTestingProxy.lvlib" Type="Library" URL="../src/CameraTestingProxy/CameraTestingProxy.lvlib"/>
+				<Item Name="ICameraTestingProxy.lvlib" Type="Library" URL="../src/ICameraTestingProxy/ICameraTestingProxy.lvlib"/>
+				<Item Name="CameraTestingProxy_TestPanel.vi" Type="VI" URL="../src/CameraTestingProxy/CameraTestingProxy_TestPanel.vi"/>
+			</Item>
 			<Item Name="DataRecorder" Type="Folder"/>
 			<Item Name="MediaViewer" Type="Folder"/>
 			<Item Name="ErrorHandler" Type="Folder"/>
