@@ -4,5 +4,5 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="Camera.lvclass" Type="LVClass" URL="../Camera/Camera.lvclass"/>
+	<Item Name="CameraI2COUSB.lvclass" Type="LVClass" URL="../Camera/CameraI2COUSB.lvclass"/>
 </Library>
