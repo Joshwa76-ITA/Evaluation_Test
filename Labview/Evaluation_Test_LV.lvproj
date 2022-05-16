@@ -23,6 +23,7 @@
 				<Item Name="CameraUSB.lvlib" Type="Library" URL="../src/Camera/CameraUSB/CameraUSB.lvlib"/>
 				<Item Name="CameraETH.lvlib" Type="Library" URL="../src/Camera/CameraETH/CameraETH.lvlib"/>
 				<Item Name="CameraIMAQ.lvlib" Type="Library" URL="../src/Camera/CameraIMAQ/CameraIMAQ.lvlib"/>
+				<Item Name="Config.ini" Type="Document" URL="../src/Camera/Config.ini"/>
 			</Item>
 			<Item Name="Camera Drivers" Type="Folder">
 				<Item Name="I2CDriver" Type="Folder">
@@ -58,7 +59,6 @@
 			<Item Name="ErrorHandler" Type="Folder"/>
 			<Item Name="Logger" Type="Folder"/>
 		</Item>
-		<Item Name="Config.ini" Type="Document" URL="../Config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">1</Property>
@@ -147,7 +147,7 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{FF11EE93-F5BB-4A2D-9C53-633BAA6182EC}</Property>
 				<Property Name="Bld_removeVIObj" Type="Int">1</Property>
-				<Property Name="Bld_version.build" Type="Int">14</Property>
+				<Property Name="Bld_version.build" Type="Int">16</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../ToPPLs</Property>
@@ -157,10 +157,11 @@
 				<Property Name="Destination[1].path" Type="Path">../ToPPLs/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[2].destName" Type="Str">Config Files</Property>
-				<Property Name="Destination[2].path" Type="Path">../ToPPLs</Property>
+				<Property Name="Destination[2].path" Type="Path">../ToPPLs/Camera</Property>
 				<Property Name="Destination[2].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8C1FFB61-E2BA-41E5-9E88-8A139B4C4A43}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{84247ACB-03D1-4D10-A221-803ECC9E0B2A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].Container.applySaveSettings" Type="Bool">true</Property>
 				<Property Name="Source[1].Container.depDestIndex" Type="Int">0</Property>
@@ -339,7 +340,7 @@
 				<Property Name="Source[27].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[27].type" Type="Str">Library</Property>
 				<Property Name="Source[28].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[28].itemID" Type="Ref">/My Computer/Config.ini</Property>
+				<Property Name="Source[28].itemID" Type="Ref">/My Computer/src/Camera/Config.ini</Property>
 				<Property Name="Source[28].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[29].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[29].itemID" Type="Ref">/My Computer/src/CameraTestingProxy/CameraTestingProxy_TestPanel.vi</Property>

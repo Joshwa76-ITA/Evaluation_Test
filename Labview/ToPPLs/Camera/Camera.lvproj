@@ -14,6 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="CameraI2COUSB_src.lvlib" Type="Library" URL="../CameraI2COUSB/CameraI2COUSB_src.lvlib"/>
+		<Item Name="Config.ini" Type="Document" URL="../Config.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -62,7 +63,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{2D6D8C81-FCB7-4B8A-BCF6-8AAC37545E46}</Property>
-				<Property Name="Bld_version.build" Type="Int">8</Property>
+				<Property Name="Bld_version.build" Type="Int">20</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">CameraI2COUSB.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/NI_AB_PROJECTNAME/CameraI2COUSB.lvlibp</Property>
@@ -72,9 +73,13 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/NI_AB_PROJECTNAME</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Destination[2].destName" Type="Str">Config File</Property>
+				<Property Name="Destination[2].path" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/NI_AB_PROJECTNAME</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[2].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F46FC1EB-2CC9-49A0-B827-4C6DC7EC6785}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{D887FA8C-25B1-4398-AA9E-C612ED50B5AE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CameraI2COUSB_src.lvlib</Property>
@@ -84,11 +89,15 @@
 				<Property Name="Source[1].preventRename" Type="Bool">true</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Config.ini</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Francesco Mancuso</Property>
 				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">CameraI2COUSB</Property>
 				<Property Name="TgtF_internalName" Type="Str">CameraI2COUSB</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Francesco Mancuso</Property>
 				<Property Name="TgtF_productName" Type="Str">CameraI2COUSB</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{14EC7854-1C7A-4404-BF52-26322FD1DFF8}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">CameraI2COUSB.lvlibp</Property>
@@ -105,7 +114,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E4F65B68-265D-48E7-8352-91BC75053824}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ICamera.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/NI_AB_PROJECTNAME/ICamera.lvlibp</Property>
@@ -117,7 +126,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{620E17E0-FC25-404E-A830-6A58F8192AAA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E9334E12-3683-414A-B205-A37F59040F49}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
@@ -128,9 +137,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Francesco Mancuso</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ICamera</Property>
 				<Property Name="TgtF_internalName" Type="Str">ICamera</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Francesco Mancuso</Property>
 				<Property Name="TgtF_productName" Type="Str">ICamera</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{AA017AA5-4F8E-4418-A115-2245DA9A574B}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ICamera.lvlibp</Property>
@@ -147,7 +157,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{DFBC4C4B-16B1-42AB-B58A-C16CD53ABFFA}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">ICamera_typedef.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/NI_AB_PROJECTNAME/ICamera_typedef.lvlibp</Property>
@@ -159,7 +169,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{620E17E0-FC25-404E-A830-6A58F8192AAA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E9334E12-3683-414A-B205-A37F59040F49}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
@@ -170,9 +180,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Francesco Mancuso</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">ICamera_typedef</Property>
 				<Property Name="TgtF_internalName" Type="Str">ICamera_typedef</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Francesco Mancuso</Property>
 				<Property Name="TgtF_productName" Type="Str">ICamera_typedef</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{045C9E09-CBE4-4D51-89AC-7BC9E8840BF2}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">ICamera_typedef.lvlibp</Property>

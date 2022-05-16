@@ -33,7 +33,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/CameraDriver</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3B7625F2-D444-43B4-93C2-FB0ABF460F3C}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">I2COUSB.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/CameraDriver/I2COUSB.lvlibp</Property>
@@ -45,7 +45,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{2678FDB4-5219-40D0-A222-758087BB9B0E}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C459F0F7-85FB-4B24-841B-FF3BCC3FAAE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/I2COUSB_src.lvlib</Property>
@@ -56,9 +56,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Francesco Mancuso</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">I2COUSB</Property>
 				<Property Name="TgtF_internalName" Type="Str">I2COUSB</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Francesco Mancuso</Property>
 				<Property Name="TgtF_productName" Type="Str">I2COUSB</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{4C31D014-9F26-4DB9-B619-604CC147327E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">I2COUSB.lvlibp</Property>
@@ -75,7 +76,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/CameraDriver</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D1409DA9-710C-4DC3-9060-606D060F4215}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">II2COUSB.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/CameraDriver/II2COUSB.lvlibp</Property>
@@ -87,7 +88,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F949AF73-DCF3-47A2-A5C8-480342C562CF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C459F0F7-85FB-4B24-841B-FF3BCC3FAAE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
@@ -98,9 +99,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Francesco Mancuso</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">II2COUSB</Property>
 				<Property Name="TgtF_internalName" Type="Str">II2COUSB</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Francesco Mancuso</Property>
 				<Property Name="TgtF_productName" Type="Str">II2COUSB</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{A6205A46-CEAD-499F-B5BC-D292B752F081}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">II2COUSB.lvlibp</Property>
@@ -117,7 +119,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/CameraDriver</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{F3D4C069-EF4B-4F60-AB0B-BED2E205AFDB}</Property>
-				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">II2COUSB_typedef.lvlibp</Property>
 				<Property Name="Destination[0].path" Type="Path">/E/GitHub/Evaluation_Test/Labview/bin/CameraDriver/II2COUSB_typedef.lvlibp</Property>
@@ -129,7 +131,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="PackedLib_callersAdapt" Type="Bool">true</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F949AF73-DCF3-47A2-A5C8-480342C562CF}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C459F0F7-85FB-4B24-841B-FF3BCC3FAAE6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref"></Property>
@@ -140,9 +142,10 @@
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">Library</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Francesco Mancuso</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">II2COUSB_typedef</Property>
 				<Property Name="TgtF_internalName" Type="Str">II2COUSB_typedef</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2022 Francesco Mancuso</Property>
 				<Property Name="TgtF_productName" Type="Str">II2COUSB_typedef</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D48E2512-7EE0-41DD-987D-FA2EF0E1DA4E}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">II2COUSB_typedef.lvlibp</Property>
